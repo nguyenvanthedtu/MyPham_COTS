@@ -1,0 +1,29 @@
+.order_group{
+    display: flex;
+    margin: 50px 60px;
+    line-height:50px;
+}
+.order_info {
+    width: 40%;
+    border-right: 1px solid;
+    padding-right: 50px;
+}
+.order_product {
+    width: 55%;
+    margin-left: 50px;
+    border: 2px solid #797c11;
+    padding: 30px;
+}
+.order_tt {
+    font-weight: bold;
+    color: #797c11;
+}
+.order_total {
+    font-weight: bold;
+    color: #797c11;
+    font-size: 25px;
+}
+.button_order {
+    margin-left: 45%;
+    margin-top: 10%;
+}

@@ -1,0 +1,146 @@
+body {
+    background:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNDwgNBwcHBwcNBw0HCAcHBw8ICQcNFREWFhURExMYHSggGB0lGxUTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0NDg8PFSsZFRkrLSsrKzcuOC0rKysrKysrKy0rKy0rKysrKy03KysrNy0rKysrLSstLSs3KzctKy03Lf/AABEIAKgBLAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIDBQT/xAAqEAEBAAECBQMDBAMAAAAAAAAAAQIRIQMxQVGBEhNhUnGxBDKR8VOCkv/EABoBAQEAAwEBAAAAAAAAAAAAAAABAgMEBwb/xAAbEQEBAQEAAwEAAAAAAAAAAAAAARECITFREv/aAAwDAQACEQMRAD8A+XHLu254x1xj56vSaDGvRem/5ZRCokBiSRCWSBSQhIKCIIhQKBIUApJApIQkEQoFAoEQqJAYQkqFJIJJA8vGO2MZxkdcY3Wt1rWMdPbxv7sZVjHSRrta7Xz5/pfoy8ZOGWOU2yllegMpLtlJZ2qzsndefC3x+HMbtdrNdOsc2bZ7JCBpAgiCiFJASFEQkEERCCIMREQRCQgJCRCQQUIKIVAUEkgeUZb0tnkJ0uhuZ59M8p/tWve4v+TL+XMpiZHT3uL9eS93idc8v50cymQyFJAUCiEskCkhCQUEQRCgUCQoBISBSQhIIhQKBUBEKiQEhJUMSSDykC6XQSyQKiSBhBREQQRCRGkCCIKIUkBISISCCIhBEFEqIIhIQEwJEJBBQwEQoFiPJITpdJIQjSBQUMBRCokBiBRCWSBSQhIKCIIhQKBIUApJApIYkggYgUCoCIVEgMISI8kguh0lJCEskCkkDCCiKGAiIhINIEEQUQpICQkQkEERCCIKJUQRCQkCQhCQQUIIjyUC3ukkICQhGkCgoQUQpICkkQlkgUkISCgiCIUkgUlAKSQKSGJIIFAoFQEQpIHkkJ0OgkFAoEQmMkCkkDCCiIwEREJBpAgiCiFJASEiEggUIYgiBRGi5UerKcrVxcdy4zi/VNfmOmOUvK6pYljRCRiYQQeSknQ6CgUCQgJCEaQKChgKIVEgKSRCWSBSQhIKCIkt5b13uExxvXK7apUtckI6cPDXe8vyCxx63l+WrG2amsdYoptQsY9NXoveNo01yvDy+L5ZuOU6WfL6DF1f044cf6/+o7Sy8rrO8Yy4eF6aXvNnK48TDfG649dOXmGSpkr6mcuLhjtllJdNXGfqZ1wuvxdq+XPK225c6s5+rOPrCSbW1EICQUCgRCWSBUSQJBRFCCCISI0gQRDeFnlEd+Dhpvf3fhn9RlynmmZuOV1ttYyeWEnk4Y22Sefh9UknLkxwcNJvzu7Wecn36TulS+aMrJz/ALccsrft2Fyt3qWRlIUIVVEFEqIMEJCBy4vAl3w2vbpXy2WbWaXtXoC443njL95qs6xlOseYkm5tSSApJAlIEUhDEkgjCkRKFAokkQwXPGc746pLJtWMe5r8RvHJJbCx09TfCx1vxN6k130w69Pozykmt8Tu+a5W3WpJInMSKVUUgSSQKSGJKQGJJEf/2Q==); 
+    margin:0px;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-size: 50% 50%; */
+    /* background-repeat: no-repeat; */
+  }
+  .image-login {
+    margin:0px;
+    background-size: 50% 50%;
+    width: 50%;
+    animation: left 2s ease-in-out;
+  }
+  .image-login>img {
+    width: 100%;
+    margin: 12% 6%;
+    height: 86%;
+    border-radius: 10%;
+  }
+  h1, h2, h3, h4, h5, h6, a {
+    margin:0; padding:0;
+  }
+  .login {
+    margin:0 auto;
+    max-width:500px;
+    width: 100%;
+    animation: right 2s ease-in-out;
+  }
+  .login-header {
+    color:#fff;
+    text-align:center;
+    font-size:300%;
+  }
+
+  .login-form {
+    border:.5px solid #fff;
+    background:#4facff1f;
+    border-radius:40px;
+    box-shadow:0px 0px 10px #000;
+  }
+  .login-form h3 {
+    text-align:left;
+    margin-left:40px;
+    color:#fff;
+  }
+  .login-form {
+    box-sizing:border-box;
+    padding-top:15px;
+    padding-bottom:3%;
+    margin:5% auto;
+    text-align:center;
+  }
+  .login input[type="text"],
+  .login input[type="password"] {
+    max-width:400px;
+      width: 80%;
+    line-height:3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin:1em 2em;
+    border-radius:5px;
+    border:2px solid #f2f2f2;
+    outline:none;
+    padding-left:10px;
+    opacity: 0.5;
+  }
+  .login input[type="text"]:focus {
+    opacity: 1;
+  }
+  .login input[type="password"]:focus {
+    opacity: 1;
+  }
+  .login-form input[type="submit"] {
+    height: 35px;
+    width: 120px;
+    background:#24c817d9;
+    border:1px solid #f2f2f2;
+    border-radius:20px;
+    color: #f5f5f5;
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+  }
+  .login-form input[type="submit"]:hover {
+    background:#fff0;
+    color: #00f904e8;
+  }
+  .sign-up{
+    color:#00f904e8;
+    margin-left:-70%;
+    cursor:pointer;
+    text-decoration:underline;
+    font-weight: bold;
+  }
+  .no-access {
+    color:#ff2600;
+    margin:20px 0px 20px -62%;
+    text-decoration:underline;
+    cursor:pointer;
+  }
+  .try-again {
+    color:#f2f2f2;
+    text-decoration:underline;
+    cursor:pointer;
+  }
+  .captcha {
+    margin-top: 20px;
+    letter-spacing: 10px;
+    transform: translate(245px, -78px);
+  }
+  .img-captcha {
+    width: 30%;
+    margin-left: -250px;
+  }
+  .details-captcha {
+    transform: translateY(-58px);
+    margin-left: -235px;
+  }
+  /*Media Querie*/
+  @media only screen and (min-width : 150px) and (max-width : 530px){
+    .login-form h3 {
+      text-align:center;
+      margin:0;
+    }
+    .sign-up, .no-access {
+      margin:10px 0;
+    }
+    .login-button {
+      margin-bottom:10px;
+    }
+  }
+  @keyframes right {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  @keyframes left {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }

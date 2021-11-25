@@ -1,0 +1,100 @@
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.statistics_total {
+    width: fit-content;
+    /* background: #93bbf49e; */
+    padding: 30px 20px;
+    height: 93px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 1px 8px #d92550;
+    min-width: 20%;
+}
+.statistics_bill {
+    width: 20%;
+    /* background: #dc35457d; */
+    padding: 30px 20px;
+    height: 93px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 1px 8px #3dc57f;
+    padding-left: 40px;
+}
+.statistics_product {
+    width: 20%;
+    /* background: #1ebfae; */
+    padding: 30px 20px;
+    height: 93px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 1px 8px #ffc107c4;
+    padding-left: 40px;
+}
+.icon_currency {
+    color: #d92550;
+    font-size: 30px;
+}
+.icon_cart {
+    color: #3dc57f;
+    font-size: 30px;
+}
+.icon_product {
+    color: #ffc107c4;
+    font-size: 30px;
+}
+.currency {
+    color: #d92550;
+    font-size: 50px;
+    padding-left: 45px;
+    transform: translateY(-63px);
+}
+.currency_title {
+    font-size: 15px;
+    padding-left: 47px;
+    transform: translateY(-72px);
+}
+.cart {
+    color: #5ace92;
+    font-size: 50px;
+    padding-left: 80px;
+    transform: translateY(-65px);
+    
+}
+.cart_title {
+    font-size: 15px;
+    padding-left: 63px;
+    transform: translateY(-72px);
+    
+}
+.product {
+    color: #ffc107c4;
+    font-size: 50px;
+    padding-left: 80px;
+    transform: translateY(-65px);
+}
+.product_title {
+    font-size: 15px;
+    padding-left: 63px;
+    transform: translateY(-72px);
+}
+
+.table-1 {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    table-layout: fixed;
+    text-align: center;
+}
+.table-date {
+    margin-left: 15%;
+}
+.title {
+    margin: 30px;
+    margin-left: 100px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}

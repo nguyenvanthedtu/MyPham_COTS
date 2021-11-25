@@ -1,0 +1,57 @@
+.container-themtk {
+    text-align: center;
+    margin: 10px 150px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.title {
+    margin-left: 108px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+.title1 {
+    margin-left: 20%;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+.btn-themtk {
+    color: #fff !important;
+    background-color: #5cb85c !important; 
+    border-color: #4cae4c !important;
+    width: 50%;
+    font-size: 15px !important;
+    margin-left: 120%;
+    margin-top: 20px !important;
+}
+input[type="text"],input[type="password"],input[type="number"] {
+    width: 260% !important;
+    font-size: 15px !important;
+
+}
+select {
+    width: 300% !important;
+    padding: 10px !important;
+    font-size: 15px !important;
+}
+table {
+    line-height: 3;
+}
+tr>td {
+    color: green;
+    font-weight: bold;
+}
+tr>td>input {
+    margin-left: 20%;
+}
+.input-tk {
+    margin-left: 30px;
+    width: 260% !important;
+    margin-left: 35%;
+}
+.form_themtk {
+    margin-left: 8%;
+}

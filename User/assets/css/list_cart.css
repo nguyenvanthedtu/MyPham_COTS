@@ -1,0 +1,43 @@
+#title {
+    color: #797c11;
+    margin: 30px;
+}
+.table_cart {
+    margin: 10px 50px;
+    width: 90%;
+
+}
+tr>td {
+    text-align: center;
+}
+#quantity {
+    width: 80%;
+    text-align: center;
+}
+#title_table {
+    font-weight: bold;
+    font-size: 20px;
+}
+.button_cart {
+    display: flex;
+    margin-left: 60px;
+}
+.button-continue-shopping {
+    height: 10px !important;
+    width: 40% !important;
+}
+.cart_totals {
+    width: 30% !important;
+    margin-left: 5% !important;
+}
+.subtotal {
+    text-align: right !important;
+}
+.amount {
+    font-size: 20px !important;
+}
+.delete {
+    background: white !important; 
+    border: none !important;
+    color: #797c11 !important;
+}

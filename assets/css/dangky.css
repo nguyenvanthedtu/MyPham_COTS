@@ -1,0 +1,92 @@
+* {box-sizing: border-box}
+
+
+.container {
+  padding: 16px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+
+input[type=text], input[type=password],input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  color: rgba(8, 8, 8, 0.849);
+}
+
+input[type=text]:focus, input[type=password]:focus,input[type=email]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+ 
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+  
+  a {
+    color: dodgerblue;
+  }
+  
+
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  label {
+      color: green;
+  }
+  .title-reg {
+    color: rgba(8, 52, 250, 0.884);
+  }
+  .gender {
+    margin-left: 33px;
+    width: 80px;
+    padding: 3px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .mail {
+    width: 50%;
+    text-align: center;
+    transform: translateX(50%);
+  }
+  .verify-mail {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  #error {
+    transform: translate(-268px, -10px);
+    color: red;
+  }

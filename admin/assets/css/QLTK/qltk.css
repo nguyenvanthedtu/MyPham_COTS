@@ -1,0 +1,28 @@
+.container-qltk {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 13px;
+    margin-left: 30px;
+}
+.title {
+    margin: 30px;
+    margin-left: 80px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+.btn-qltk {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    width: 10%;
+    font-size: 15px;
+}
+.table-qltk {
+    font-size: 14px;
+    text-align: center;
+}
+tr>th {
+    text-align: center;
+}

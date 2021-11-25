@@ -1,0 +1,51 @@
+.container-suatk {
+    text-align: center;
+    margin: 20px 150px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.title {
+    margin-left: 180px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+.title1 {
+    margin-left: 33%;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+.btn-suatk {
+    color: #fff !important;
+    background-color: #5cb85c !important; 
+    border-color: #4cae4c !important;
+    width: 50%;
+    font-size: 15px !important;
+    margin-left: 118%;
+    margin-top: 20px !important;
+}
+input[type="text"],input[type="password"],input[type="number"] {
+    width: 300% !important;
+    font-size: 15px !important;
+    margin-left: 22%;
+}
+select {
+    width: 300% !important;
+    padding: 10px !important;
+    font-size: 15px !important;
+    margin-left: 22%;
+}
+table {
+    line-height: 3;
+}
+tr>td {
+    color: green;
+    font-weight: bold;
+    width: 160px;
+}
+.form_suatk {
+    margin-left: 15%;
+}

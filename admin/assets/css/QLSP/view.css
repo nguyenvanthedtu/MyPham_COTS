@@ -1,0 +1,26 @@
+td,th{
+    padding: 5px;
+}
+.title-cthd{
+    color:green;
+    font-weight: bold;
+    width: 20%;
+}
+.content-cthd{
+    font-weight: bold;
+}
+.table {
+    margin-left: 50px;
+}
+.btn-back1 {
+    margin-left: 100%;
+    float: none !important;
+    color: white;
+}
+tr>td {
+    text-align: left;
+}
+textarea {
+    width: 100%;
+    height: 100;
+}

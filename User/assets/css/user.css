@@ -1,0 +1,63 @@
+.user {
+    width: 50%;
+    margin: 40px 25%;
+}
+
+.btn-doimk {
+    margin-top: 30px;
+    margin-left: 43%;
+}
+
+.bill {
+    width: 30%;
+    margin-left: 38%;
+}
+
+#bill {
+    margin: 40px 100px;
+}
+
+.title-table,
+.status>td {
+    text-align: center;
+}
+
+.cthoadon_modal {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 55%;
+    max-height: 85%;
+    margin: 32px 19.5%;
+    background: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transform: translateX(40px);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cthoadon {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+.table_cthoadon {
+    margin-left: 30px !important;
+    width: 93% !important;
+}
+
+#view {
+    display: none;
+}
+
+.content-cthd {
+    padding-left: 20%;
+}
+
+.title-cthd {
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.title {
+    margin: 30px;
+    margin-left: 100px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+.table {
+    text-align: center;
+}
+.table-1 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.title-table {
+    text-align: center;
+}
+.title-cthd {
+    padding-left: 50px;
+    color: green;
+    font-weight: bold;
+}
+.content-cthd {
+    padding-left: 200px;
+}
+td {
+    padding: 10px 0;
+}
+.btn-cthd {
+    margin-left: 50%;
+}

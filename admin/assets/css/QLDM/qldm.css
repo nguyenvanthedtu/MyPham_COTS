@@ -1,0 +1,31 @@
+.container-qldm {
+    text-align: center;
+    margin: 20px 150px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.title {
+    margin-left: 120px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.btn-themdm {
+    color: #fff !important;
+    background-color: #5cb85c !important; 
+    border-color: #4cae4c !important;
+    width: 50%;
+    font-size: 15px !important;
+    margin-left: 10%;
+}
+
+.table-qldm {
+    width: 700px;
+    margin-left:100px;
+    text-align: center;
+}
+tr>th {
+    text-align: center;
+}

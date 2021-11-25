@@ -1,0 +1,99 @@
+.container-spkm {
+    width: 100%;
+    margin-left: 8%;
+}
+.title {
+    margin: 30px;
+    margin-left: 50px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    
+}
+.table {
+    text-align: center;
+}
+.table-1 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.title-table {
+    text-align: center;
+}
+.title-cthd {
+    padding-left: 50px;
+    color: green;
+    font-weight: bold;
+}
+.content-cthd {
+    padding-left: 200px;
+}
+td {
+    padding: 10px 0;
+}
+
+* {box-sizing: border-box}
+
+
+.container {
+  padding: 16px;
+  margin-left: 70px;
+  width: 90%;
+}
+
+
+input[type=text],input[type=number],select,textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  color: rgba(8, 8, 8, 0.849);
+}
+
+input[type=text]:focus,input[type=number]:focus,select:focus,textarea:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  
+  .addbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    opacity: 0.9;
+    margin-left: 15%;
+    margin-bottom: 20px;
+  }
+  
+  .addbtn:hover {
+    opacity:1;
+  }
+  
+ 
+  a {
+    color: dodgerblue;
+  }
+  
+  
+  
+  label {
+      color: green;
+  }
+  .title-reg {
+    color:green;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
