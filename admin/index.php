@@ -135,7 +135,8 @@
 					 case 'view' : include './QLSP/view.php';break;
 					 case 'edit' : include './QLSP/edit.php';break;
 					 case 'delete' : include './QLSP/delete.php';break;
-					
+					//Quan ly khach hang
+					 case 'dskh' : include './QLKH/dskh.php';break;
 					 //Quan ly danh gia
 					 case 'qldg' : include './QLDG/DanhSachDG.php';break;
 					 case 'review' : include './QLDG/chon.php';break;

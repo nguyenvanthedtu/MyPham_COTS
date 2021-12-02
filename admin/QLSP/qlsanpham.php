@@ -65,10 +65,7 @@
         while($row=mysqli_fetch_array($result)){
             $count++;
       ?>
-      <?php
-      // $sql1="";
-      // $result1=mysqli_query($conn, $sql1);
-      ?>
+    
     <tr>
     
       <th scope="row"><?php echo $count ?></th>

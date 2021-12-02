@@ -45,6 +45,7 @@
     width: 118px;
     height: 39px;
     transform: translateY(0px);
+    
 
 }
 #icon-icon{
@@ -83,6 +84,11 @@
     width: 50px;
     transform:translateX(0px);
 }
+.btn {
+    transform: translate(-12px, 7px) !important;
+    margin-left: 18px !important;
+    width:30% !important;
+}
 .btn
 .btn-button1,.btn-button2,.btn-button3{
     margin:10px 0px 10px 0px; 
@@ -90,4 +96,8 @@
 .image{
     width:50px;
     min-height:100%
+}
+.title-table{
+    text-align: center !important;
+    word-wrap: break-word;
 }
